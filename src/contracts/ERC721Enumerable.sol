@@ -44,8 +44,7 @@ contract ERC721Enumerable is ERC721, IERC721Enumerable {
   }
 
   function totalSupply() public view returns (uint256) {
-    uint tokenLength = _allTokens.length;
-    return tokenLength;
+    return _allTokens.length;
   }
 
   function tokenByIndex(uint256 _index) external view returns (uint256) {
