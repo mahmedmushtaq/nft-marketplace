@@ -28,7 +28,7 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"_name\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"symbol\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"_symbol\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"name()\":{\"notice\":\"A descriptive name for a collection of NFTs in this contract\"},\"symbol()\":{\"notice\":\"An abbreviated name for NFTs in this contract\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/src/contracts/interfaces/IERC721Metadata.sol\":\"IERC721Metadata\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/src/contracts/interfaces/IERC721Metadata.sol\":{\"keccak256\":\"0x9a33ea29f3cce59862d89ad5ec21376b831ee0a6780ce1ff4eab13de43bb97db\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5842762ed463d4ce77c8c196892faa2d107415ef9b7ec459698d46ef810e50a2\",\"dweb:/ipfs/QmSZAHVnRww63WUQVvPnJwwvxT7xUYEedzRzG7G1F3y6JF\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.11+commit.d7f03943\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"_name\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"symbol\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"_symbol\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"name()\":{\"notice\":\"A descriptive name for a collection of NFTs in this contract\"},\"symbol()\":{\"notice\":\"An abbreviated name for NFTs in this contract\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/src/contracts/interfaces/IERC721Metadata.sol\":\"IERC721Metadata\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/src/contracts/interfaces/IERC721Metadata.sol\":{\"keccak256\":\"0x9a33ea29f3cce59862d89ad5ec21376b831ee0a6780ce1ff4eab13de43bb97db\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5842762ed463d4ce77c8c196892faa2d107415ef9b7ec459698d46ef810e50a2\",\"dweb:/ipfs/QmSZAHVnRww63WUQVvPnJwwvxT7xUYEedzRzG7G1F3y6JF\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
@@ -42,15 +42,15 @@
     "absolutePath": "project:/src/contracts/interfaces/IERC721Metadata.sol",
     "exportedSymbols": {
       "IERC721Metadata": [
-        790
+        798
       ]
     },
-    "id": 791,
+    "id": 799,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 777,
+        "id": 785,
         "literals": [
           "solidity",
           "^",
@@ -67,9 +67,9 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 790,
+        "id": 798,
         "linearizedBaseContracts": [
-          790
+          798
         ],
         "name": "IERC721Metadata",
         "nameLocation": "72:15:10",
@@ -77,13 +77,13 @@
         "nodes": [
           {
             "documentation": {
-              "id": 778,
+              "id": 786,
               "nodeType": "StructuredDocumentation",
               "src": "95:72:10",
               "text": "@notice A descriptive name for a collection of NFTs in this contract"
             },
             "functionSelector": "06fdde03",
-            "id": 783,
+            "id": 791,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -91,23 +91,23 @@
             "nameLocation": "182:4:10",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 779,
+              "id": 787,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "186:2:10"
             },
             "returnParameters": {
-              "id": 782,
+              "id": 790,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 781,
+                  "id": 789,
                   "mutability": "mutable",
                   "name": "_name",
                   "nameLocation": "226:5:10",
                   "nodeType": "VariableDeclaration",
-                  "scope": 783,
+                  "scope": 791,
                   "src": "212:19:10",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -116,7 +116,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 780,
+                    "id": 788,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "212:6:10",
@@ -130,7 +130,7 @@
               ],
               "src": "211:21:10"
             },
-            "scope": 790,
+            "scope": 798,
             "src": "173:60:10",
             "stateMutability": "view",
             "virtual": false,
@@ -138,13 +138,13 @@
           },
           {
             "documentation": {
-              "id": 784,
+              "id": 792,
               "nodeType": "StructuredDocumentation",
               "src": "241:57:10",
               "text": "@notice An abbreviated name for NFTs in this contract"
             },
             "functionSelector": "95d89b41",
-            "id": 789,
+            "id": 797,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -152,23 +152,23 @@
             "nameLocation": "313:6:10",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 785,
+              "id": 793,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "319:2:10"
             },
             "returnParameters": {
-              "id": 788,
+              "id": 796,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 787,
+                  "id": 795,
                   "mutability": "mutable",
                   "name": "_symbol",
                   "nameLocation": "359:7:10",
                   "nodeType": "VariableDeclaration",
-                  "scope": 789,
+                  "scope": 797,
                   "src": "345:21:10",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -177,7 +177,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 786,
+                    "id": 794,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "345:6:10",
@@ -191,14 +191,14 @@
               ],
               "src": "344:23:10"
             },
-            "scope": 790,
+            "scope": 798,
             "src": "304:64:10",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 791,
+        "scope": 799,
         "src": "62:386:10",
         "usedErrors": []
       }
@@ -209,15 +209,15 @@
     "absolutePath": "project:/src/contracts/interfaces/IERC721Metadata.sol",
     "exportedSymbols": {
       "IERC721Metadata": [
-        790
+        798
       ]
     },
-    "id": 791,
+    "id": 799,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 777,
+        "id": 785,
         "literals": [
           "solidity",
           "^",
@@ -234,9 +234,9 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 790,
+        "id": 798,
         "linearizedBaseContracts": [
-          790
+          798
         ],
         "name": "IERC721Metadata",
         "nameLocation": "72:15:10",
@@ -244,13 +244,13 @@
         "nodes": [
           {
             "documentation": {
-              "id": 778,
+              "id": 786,
               "nodeType": "StructuredDocumentation",
               "src": "95:72:10",
               "text": "@notice A descriptive name for a collection of NFTs in this contract"
             },
             "functionSelector": "06fdde03",
-            "id": 783,
+            "id": 791,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -258,23 +258,23 @@
             "nameLocation": "182:4:10",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 779,
+              "id": 787,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "186:2:10"
             },
             "returnParameters": {
-              "id": 782,
+              "id": 790,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 781,
+                  "id": 789,
                   "mutability": "mutable",
                   "name": "_name",
                   "nameLocation": "226:5:10",
                   "nodeType": "VariableDeclaration",
-                  "scope": 783,
+                  "scope": 791,
                   "src": "212:19:10",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -283,7 +283,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 780,
+                    "id": 788,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "212:6:10",
@@ -297,7 +297,7 @@
               ],
               "src": "211:21:10"
             },
-            "scope": 790,
+            "scope": 798,
             "src": "173:60:10",
             "stateMutability": "view",
             "virtual": false,
@@ -305,13 +305,13 @@
           },
           {
             "documentation": {
-              "id": 784,
+              "id": 792,
               "nodeType": "StructuredDocumentation",
               "src": "241:57:10",
               "text": "@notice An abbreviated name for NFTs in this contract"
             },
             "functionSelector": "95d89b41",
-            "id": 789,
+            "id": 797,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -319,23 +319,23 @@
             "nameLocation": "313:6:10",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 785,
+              "id": 793,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "319:2:10"
             },
             "returnParameters": {
-              "id": 788,
+              "id": 796,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 787,
+                  "id": 795,
                   "mutability": "mutable",
                   "name": "_symbol",
                   "nameLocation": "359:7:10",
                   "nodeType": "VariableDeclaration",
-                  "scope": 789,
+                  "scope": 797,
                   "src": "345:21:10",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -344,7 +344,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 786,
+                    "id": 794,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "345:6:10",
@@ -358,14 +358,14 @@
               ],
               "src": "344:23:10"
             },
-            "scope": 790,
+            "scope": 798,
             "src": "304:64:10",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 791,
+        "scope": 799,
         "src": "62:386:10",
         "usedErrors": []
       }
@@ -374,11 +374,11 @@
   },
   "compiler": {
     "name": "solc",
-    "version": "0.8.10+commit.fc410830.Emscripten.clang"
+    "version": "0.8.11+commit.d7f03943.Emscripten.clang"
   },
   "networks": {},
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-12-15T05:28:01.118Z",
+  "updatedAt": "2021-12-23T19:10:34.606Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
