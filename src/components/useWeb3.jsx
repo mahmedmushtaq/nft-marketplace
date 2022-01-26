@@ -27,6 +27,8 @@ const useWeb3 = () => {
     (async () => {
       const web3accounts = await web3.eth.getAccounts();
 
+      console.log("web3 accounts ", web3accounts);
+
       setAccount(web3accounts[0]);
     })();
   }, [web3]);

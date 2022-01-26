@@ -86,7 +86,11 @@ export default () => {
     //  e.preventDefault();
     console.log(inputRef.current.value, "  ref value");
     const kryptoBird = inputRef.current.value;
-    await mint(kryptoBird);
+    try {
+      await mint(kryptoBird);
+    } catch (err) {
+      console.log("error occured in minting ", err);
+    }
   };
 
   return (
